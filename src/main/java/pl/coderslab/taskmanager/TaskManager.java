@@ -23,7 +23,7 @@ public class TaskManager {
     static final String FILE_NAME = "tasks.csv";
     static final String[] OPTIONS = {"add", "remove", "list", "exit"};
     static String[][] tasks;
-
+    
     public class ConsoleColors {
         public static final String BLUE = "\033[0;34m";
         public static final String RESET = "\033[0m";
